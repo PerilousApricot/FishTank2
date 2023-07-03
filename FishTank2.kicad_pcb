@@ -5,6 +5,12 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Reef-Pi Controller")
+    (date "2023-07-03")
+    (rev "1")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
@@ -4923,7 +4929,7 @@
     (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp b07d2d71-0a85-4c4c-b6b6-fa9ff7fbd968))
   )
 
-  (gr_rect (start 186.25 115) (end 240.25 71)
+  (gr_rect (start 186.25 71) (end 240.25 115)
     (stroke (width 1) (type solid)) (fill none) (layer "F.SilkS") (tstamp 159b1bed-31f3-4f0f-a18c-27b4b5682f51))
   (gr_rect (start 88.9 53.34) (end 243.84 129.54)
     (stroke (width 0.1) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 7a34123f-159f-4d43-815c-e545a254cea0))
@@ -4958,10 +4964,11 @@
   (segment (start 127.08 121.92) (end 127.08 124.145) (width 0.25) (layer "B.Cu") (net 3) (tstamp c3358ee2-7929-4174-a907-2e3f16087dec))
   (segment (start 108.985 124.225) (end 106.68 121.92) (width 0.25) (layer "B.Cu") (net 3) (tstamp c73bc8e0-4bca-4bb0-8341-06f6e9870e29))
   (segment (start 127 124.225) (end 108.985 124.225) (width 0.25) (layer "B.Cu") (net 3) (tstamp f50a57f6-ec8d-45d8-8587-09404fe600cb))
+  (segment (start 146.0975 105.4425) (end 174.6575 105.4425) (width 0.25) (layer "F.Cu") (net 4) (tstamp 0bf82c0f-1f1b-413d-9353-bb8e8ada5621))
   (segment (start 142.93875 108.60125) (end 123.84125 108.60125) (width 0.25) (layer "F.Cu") (net 4) (tstamp 1bc1e11b-9b9c-4d86-ae7e-63967c3766bb))
+  (segment (start 174.6575 105.4425) (end 188.595 119.38) (width 0.25) (layer "F.Cu") (net 4) (tstamp 2cdede72-478c-4d46-a29c-86d61223a41d))
   (segment (start 146.0975 105.4425) (end 142.93875 108.60125) (width 0.25) (layer "F.Cu") (net 4) (tstamp 335b5ae7-f081-4687-95d4-7015c173febc))
-  (segment (start 146.0975 105.4425) (end 179.1025 105.4425) (width 0.25) (layer "F.Cu") (net 4) (tstamp 3774fa4b-c1ac-4d71-9f66-658bd101e2b4))
-  (segment (start 179.1025 105.4425) (end 193.04 119.38) (width 0.25) (layer "F.Cu") (net 4) (tstamp 537d39c8-1efb-4119-9951-fb91dcd0c31d))
+  (segment (start 188.595 119.38) (end 193.04 119.38) (width 0.25) (layer "F.Cu") (net 4) (tstamp 4d847a6e-bb5f-46bd-b003-d4b3dc89ea01))
   (segment (start 123.84125 108.60125) (end 127 105.4425) (width 0.25) (layer "F.Cu") (net 4) (tstamp 86893803-868f-44d2-bfee-f9ec1a421ef1))
   (segment (start 121.92 121.92) (end 121.92 110.5225) (width 0.25) (layer "F.Cu") (net 4) (tstamp ada13c3f-71af-4440-afe5-c40f280ca2f7))
   (segment (start 121.92 110.5225) (end 123.84125 108.60125) (width 0.25) (layer "F.Cu") (net 4) (tstamp b7624c20-0b26-4b89-9448-3edd267879d4))
